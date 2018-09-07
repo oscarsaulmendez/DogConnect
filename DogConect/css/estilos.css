@@ -18,9 +18,9 @@
 }
 
 body{
-    
+
     font-family: 'Barlow Condensed', sans-serif;/*2da parte del primer import*/
-    
+
 }
 
 header{
@@ -28,7 +28,7 @@ header{
     height: 8%; /*Altura de la cabecera*/
     background: #2d2d2d;/*Color para el header*/
     color:white; /*Cambia color al texto del header*/
-    
+
     position: fixed;/*Para que quede pegado el header*/
     top: 0;
     left: 0;
@@ -49,7 +49,7 @@ header{
 }
 
 .centradoperro{ /*Manipula el icono*/
-    margin-top:-0.3%; 
+    margin-top:-0.3%;
 }
 
 
@@ -112,7 +112,7 @@ section{
 }
 
 .article{
-    font-color:black; 
+    font-color:black;
     box-shadow: 10px 10px 10px #999;
     border-radius: 10px;
     width: 100%;
@@ -140,19 +140,19 @@ section{
     	text-decoration: none;
     	padding: 13px;/*contenedor que tiene el elemento*/
     	border-bottom: 2px solid rgba(255,255,255,0.2);
-	
-    
+
+
 }
 
 	.menu1 a:hover { /*Letras de menu: Inicio..*/
     	color: fuchsia;
     	background: /*rgba(255,255,255,0.3)*/ rgba(38, 32, 30, 0.1);
-        
+
 }
 
 	.login-diseno{
 		font-size: 13px;
-	
+
 }
 
 
@@ -166,7 +166,7 @@ section{
     width: 100%;
     height: 389px;
     margin-top: 4%;
- 
+
 }
 .titulo{
     text-align: center;
@@ -188,8 +188,76 @@ hr{
 .espacio{
         margin-bottom: 3%;
 }
-
-
+/**************DIRECTORIO*****************/
+.color-fondo-dirctorio{
+  background-color: #abf6bb2b;
+}
+.circulo-grande{
+margin-top: 7%;
+margin-left: 9%;
+width: 150px;
+height: 150px;
+position: relative;
+border-radius: 50%;
+background-color: #99e671b5;
+}
+.caja{
+height: 185px;
+width: 90%;
+margin-top: -11%;
+margin-left: 6%;
+position: static;
+background-color: #fff;
+}
+.p1{
+margin-left: 229px;
+margin-top: 36px;
+margin-bottom: -3%;
+font-size: 22px;
+color: #29a9af;
+}
+.hr-main{
+margin-top: 41px;
+margin-left: 17%;
+margin-bottom: 20px;
+border: 0;
+border-top: 1px solid #797979;
+width: 75%;
+}
+.t1{
+margin-left: 71%;
+margin-top: -70px;
+font-size: 34px;
+color: #979797;
+}
+.t2{
+font-size: 20px;
+color: #5D5D5D;
+margin-left: 227px;
+margin-top: 0%;
+margin-bottom: 11%;
+}
+.t3{
+margin-top: -170px;
+margin-left: 30%;
+font-size: 20px;
+color: #5D5D5D;
+}
+.p2{
+font-size: 14px;
+color: #CCCCCC;
+margin-top: 6px;
+margin-left: 234px;
+}
+.p3{
+margin-left: 235px;
+margin-top: -5px;
+font-size: 14px;
+color: #CCCCCC;
+}
+.section-botom{
+margin-bottom: 10%;
+}
 /*------FOOTER-------*/
 footer {
     background: #181818;
@@ -197,14 +265,14 @@ footer {
     bottom: -40%;
     width: 100%;
     height: 50%;
-    
+
 
 }
 footer .contenedor{
     display: flex; /*Capacidad para alterar sus dimensiones*/
     flex-wrap: wrap;
     justify-content: center;
-    
+
 }
 
 .copy /*copy y nombre que esta en el footer*/{
@@ -220,11 +288,11 @@ footer .contenedor{
     width: 100%; /*usaran 100% de ancho del contenedor*/
     text-align: center;
     font-size: 26px;/*Tamaño de iconos*/
-    
+
 }
 
 .sociales a/*ICONOS*/{
     color: whitesmoke;
     text-decoration: none;/*para quitarle lo subrayado */
-    
+
 }
