@@ -300,6 +300,9 @@ text-decoration: none;/*para quitarle lo subrayado */
 .margen-contacto{
 padding: 10%;
 background-color: #20d5d242;
+background-image: url('../img/dogos.jpg');
+background-position: center;
+background-repeat: no-repeat;
 }
 .estilo-forma-contacto{
 background-color: #fff;
