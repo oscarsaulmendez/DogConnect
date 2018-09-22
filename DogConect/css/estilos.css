@@ -310,3 +310,9 @@ border: groove 1px #000;
 border-radius: 10px;
 padding: 10%;
 }
+.color-jumbotron{
+margin: 5% 10%;
+padding: 10% !important;
+background-color: #20d5d2 !important;
+color: #ffffff;
+}
